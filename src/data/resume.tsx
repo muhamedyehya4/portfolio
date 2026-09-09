@@ -191,6 +191,65 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Top Notch Athletics — Gym Management Platform",
+      href: "https://instagram.com/top.notch.egypt",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "[Top Notch Athletics](https://instagram.com/top.notch.egypt), a single-branch athletic performance gym in Cairo, ran bookings and attendance entirely through Instagram DMs. I designed and built a bilingual (EN/AR, RTL-ready) Next.js platform that pairs a public marketing site with a role-separated internal system for admins, staff, coaches, and athletes. Attendance runs on permanent per-account QR codes scanned at the front desk, with all validation — active subscription, sessions remaining, duplicate check-in — enforced server-side. Subscriptions, session scheduling, and WhatsApp expiry reminders are handled in the same Supabase-backed system, with row-level security isolating every role from day one.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "PostgreSQL",
+        "Row Level Security",
+        "Vercel",
+        "Evolution API",
+        "i18n / RTL",
+      ],
+      links: [
+        {
+          type: "Instagram",
+          href: "https://instagram.com/top.notch.egypt",
+          icon: <Icons.instagram className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "TODO_LIVE_URL_NOT_DEPLOYED",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/TODO_topnotch_cover.png",
+      video: "",
+    },
+    {
+      title: "Real Estate CRM",
+      href: "https://webcrm.app/demo",
+      dates: "2026",
+      active: true,
+      description:
+        "Multi-tenant CRM for Egyptian real estate brokerages. Leads from Meta and TikTok ads land in a shared pool, then route down through managers, team leaders and agents, with per-agent row-level isolation. Automatic discipline rules: daily pull cap, mandatory comments on status changes, stale leads recycled back to the pool. The live demo signs you in as an admin of a seeded agency with ~3,900 leads and resets nightly.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "PostgreSQL",
+        "Row Level Security",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://webcrm.app/demo",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
       title: "Chat Collect",
       href: "https://chatcollect.com",
       dates: "Jan 2024 - Feb 2024",
