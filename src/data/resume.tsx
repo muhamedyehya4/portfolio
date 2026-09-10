@@ -76,7 +76,7 @@ export const DATA = {
 
   work: [
     {
-      company: "Early-Stage Startup",
+      company: "SwiftStack",
       href: "",
       badges: [],
       location: "Cairo, Egypt",
@@ -152,7 +152,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Nile Crest Properties — Real Estate CRM",
+      title: "Multi-Tenant Real Estate CRM",
       href: "https://demo-portfolio.webcrm.app/demo",
       dates: "2026",
       active: true,
@@ -185,7 +185,7 @@ export const DATA = {
       location: "Cairo, Egypt",
       description:
         "Earned an Honorable Mention at the 2025 ICPC Egyptian Collegiate Programming Contest, the national finals of the International Collegiate Programming Contest.",
-      image: "",
+      image: "/icpc.png",
       links: [
         {
           title: "Certificate",
@@ -200,7 +200,7 @@ export const DATA = {
       location: "Cairo, Egypt",
       description:
         "Placed 28th in the 2025 ICPC ECPC qualification round, competing on algorithmic problem solving under contest time limits.",
-      image: "",
+      image: "/icpc.png",
       links: [
         {
           title: "Certificate",
@@ -215,7 +215,7 @@ export const DATA = {
       location: "Coursera",
       description:
         "Eight-course Google professional certificate covering digital marketing foundations, campaign measurement, email marketing and running e-commerce stores.",
-      image: "",
+      image: "/google.webp",
       links: [
         {
           title: "Verify",
@@ -230,7 +230,7 @@ export const DATA = {
       location: "ALX",
       description:
         "Eight-week programme in AI-augmented professional development skills for the digital age.",
-      image: "",
+      image: "/alx.jpg",
       links: [
         {
           title: "Verify",
@@ -245,7 +245,7 @@ export const DATA = {
       location: "Coursera",
       description:
         "Google certificate covering practical use of generative AI tools for everyday professional work.",
-      image: "",
+      image: "/google.webp",
       links: [],
     },
   ],
