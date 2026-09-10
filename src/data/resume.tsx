@@ -143,11 +143,6 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Instagram",
-          href: "https://instagram.com/top.notch.egypt",
-          icon: <Icons.instagram className="size-3" />,
-        },
-        {
           type: "Live Demo",
           href: "https://top-notch-athletics.vercel.app/demo",
           icon: <Icons.globe className="size-3" />,
