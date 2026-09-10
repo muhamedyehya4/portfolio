@@ -196,7 +196,7 @@ export const DATA = {
       dates: "2026 - Present",
       active: true,
       description:
-        "[Top Notch Athletics](https://instagram.com/top.notch.egypt), a single-branch athletic performance gym in Cairo, ran bookings and attendance entirely through Instagram DMs. I designed and built a bilingual (EN/AR, RTL-ready) Next.js platform that pairs a public marketing site with a role-separated internal system for admins, staff, coaches, and athletes. Attendance runs on permanent per-account QR codes scanned at the front desk, with all validation — active subscription, sessions remaining, duplicate check-in — enforced server-side. Subscriptions, session scheduling, and WhatsApp expiry reminders are handled in the same Supabase-backed system, with row-level security isolating every role from day one.",
+        "[Top Notch Athletics](https://instagram.com/top.notch.egypt), a single-branch athletic performance gym in Cairo, ran bookings and attendance entirely through Instagram DMs. I designed and built a bilingual (EN/AR, RTL-ready) Next.js platform that pairs a public marketing site with a role-separated internal system for admins, staff, coaches, and athletes. Attendance runs on permanent per-account QR codes scanned at the front desk, with all validation — active subscription, sessions remaining, duplicate check-in — enforced server-side. Subscriptions, session scheduling, and WhatsApp expiry reminders are handled in the same Supabase-backed system, with row-level security isolating every role from day one.\n\n**Demo login:** mobile `01555999999` · password `DemoTopNotch2026!` — read-only, all data invented.",
       technologies: [
         "Next.js",
         "TypeScript",
