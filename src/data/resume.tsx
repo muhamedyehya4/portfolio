@@ -5,71 +5,64 @@ import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
 import { Nodejs } from "@/components/ui/svgs/nodejs";
 import { Python } from "@/components/ui/svgs/python";
-import { Golang } from "@/components/ui/svgs/golang";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
-import { Docker } from "@/components/ui/svgs/docker";
-import { Kubernetes } from "@/components/ui/svgs/kubernetes";
-import { Java } from "@/components/ui/svgs/java";
 import { Csharp } from "@/components/ui/svgs/csharp";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  name: "Mohamed Yehya",
+  initials: "MY",
+  url: "https://github.com/muhamedyehya4",
+  location: "Cairo, Egypt",
+  locationLink: "https://www.google.com/maps/place/cairo",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "CS student who ships. I build and deploy production systems — CRMs, ops platforms and internal tools — for real clients.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "Third-year Computer Science student at Egyptian Chinese University. I build and ship business systems end to end: a multi-tenant real estate CRM running live with paying agencies, and a gym management platform handling memberships, scheduling and QR check-in. Next.js, TypeScript, Supabase and Postgres, with a focus on role-based access and getting things into production.",
   avatarUrl: "/me.png",
   skills: [
-    { name: "React", icon: ReactLight },
+    { name: "TypeScript", icon: Typescript },
+    { name: "JavaScript", icon: undefined },
     { name: "Next.js", icon: NextjsIconDark },
-    { name: "Typescript", icon: Typescript },
+    { name: "React", icon: ReactLight },
     { name: "Node.js", icon: Nodejs },
+    { name: "PostgreSQL", icon: Postgresql },
+    { name: "Supabase", icon: undefined },
+    { name: "Tailwind CSS", icon: undefined },
     { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
-    { name: "Postgres", icon: Postgresql },
-    { name: "Docker", icon: Docker },
-    { name: "Kubernetes", icon: Kubernetes },
-    { name: "Java", icon: Java },
     { name: "C++", icon: Csharp },
+    { name: "REST APIs", icon: undefined },
+    { name: "Git", icon: undefined },
+    { name: "Vercel", icon: undefined },
+    { name: "n8n", icon: undefined },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "muhamedyehya4@gmail.com",
+    tel: "+201005015490",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/muhamedyehya4",
         icon: Icons.github,
         navbar: true,
       },
 
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/muhamed-yehya",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "#",
         icon: Icons.x,
 
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
@@ -83,110 +76,50 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Early-Stage Startup",
+      href: "",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      location: "Cairo, Egypt",
+      title: "Software Developer",
+      logoUrl: "",
+      start: "Feb 2026",
+      end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Building an automated clinic management system with a team of four — appointment scheduling, patient intake, follow-ups and no-show reduction. Responsible for system architecture and workflow design.",
     },
     {
-      company: "Shopify",
+      company: "Taskeen Egypt",
+      href: "",
       badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      location: "Cairo, Egypt",
+      title: "Property Advisor",
+      logoUrl: "",
+      start: "Nov 2025",
+      end: "Feb 2026",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Managed client relationships from first contact through deal closure — lead qualification, property presentations, negotiation and contract finalization.",
     },
     {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
+      company: "Shahba Designs",
+      href: "",
       badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
+      location: "Cairo, Egypt",
+      title: "Social Media Specialist",
+      logoUrl: "",
+      start: "Aug 2025",
+      end: "Oct 2025",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "Ran the brand's social accounts end to end: content planning, posting and audience engagement. Shot and edited video content for campaigns.",
     },
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
-    },
-    {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      school: "Egyptian Chinese University",
+      href: "",
+      degree: "B.Sc. in Computer Science",
+      logoUrl: "",
+      start: "2024",
+      end: "2028",
     },
   ],
   projects: [
