@@ -81,7 +81,7 @@ export const DATA = {
       badges: [],
       location: "Cairo, Egypt",
       title: "Founder & Software Developer",
-      logoUrl: "",
+      logoUrl: "/swiftstack.png",
       start: "Feb 2026",
       end: "Present",
       description:
