@@ -15,9 +15,9 @@ export const DATA = {
   location: "Cairo, Egypt",
   locationLink: "https://www.google.com/maps/place/cairo",
   description:
-    "I build production software for paying clients — a multi-tenant CRM, a gym operations platform — from schema design through to deployment.",
+    "I build production software for paying clients, a multi-tenant CRM and a gym operations platform, handling everything from schema design through to deployment.",
   summary:
-    "Computer Science student at Egyptian Chinese University, in my third year. Most of what I know came from shipping: a multi-tenant real estate CRM used daily by brokerage teams, and a gym management platform covering memberships, scheduling and QR check-in. I work in TypeScript and Next.js on Postgres via Supabase, and I care most about the parts that are easy to get wrong — row-level security, role separation, and server-side validation that holds when the UI lies. Both live systems are linked below with one-click demo access.",
+    "Computer Science student at Egyptian Chinese University, in my third year. Most of what I know came from shipping: a multi-tenant real estate CRM used daily by brokerage teams, and a gym management platform covering memberships, scheduling and QR check-in. I work in TypeScript and Next.js on Postgres via Supabase, and I care most about the parts that are easy to get wrong: row-level security, role separation, and server-side validation that holds when the UI lies. Both live systems are linked below with one-click demo access.",
   avatarUrl: "/me.png",
   skills: [
     { name: "TypeScript", icon: Typescript },
@@ -85,7 +85,7 @@ export const DATA = {
       start: "Feb 2026",
       end: "Present",
       description:
-        "Building an automated clinic management system with a team of four — appointment scheduling, patient intake, follow-ups and no-show reduction. Responsible for system architecture and workflow design.",
+        "Building an automated clinic management system with a team of four, covering appointment scheduling, patient intake, follow-ups and no-show reduction. Responsible for system architecture and workflow design.",
     },
     {
       company: "Taskeen Egypt",
@@ -97,7 +97,7 @@ export const DATA = {
       start: "Nov 2025",
       end: "Feb 2026",
       description:
-        "Managed client relationships from first contact through deal closure — lead qualification, property presentations, negotiation and contract finalization.",
+        "Managed client relationships from first contact through deal closure: lead qualification, property presentations, negotiation and contract finalization.",
     },
     {
       company: "Shahba Designs",
@@ -124,12 +124,12 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Top Notch Athletics — Gym Management Platform",
+      title: "Top Notch Athletics: Gym Management Platform",
       href: "https://top-notch-athletics.vercel.app/demo",
       dates: "2026 - Present",
       active: true,
       description:
-        "[Top Notch Athletics](https://instagram.com/top.notch.egypt), a single-branch athletic performance gym in Cairo, ran bookings and attendance entirely through Instagram DMs. I designed and built a bilingual (EN/AR, RTL-ready) Next.js platform that pairs a public marketing site with a role-separated internal system for admins, staff, coaches, and athletes. Attendance runs on permanent per-account QR codes scanned at the front desk, with all validation — active subscription, sessions remaining, duplicate check-in — enforced server-side. Subscriptions, session scheduling, and WhatsApp expiry reminders are handled in the same Supabase-backed system, with row-level security isolating every role from day one.\n\nClient: [@top.notch.egypt](https://www.instagram.com/top.notch.egypt)",
+        "[Top Notch Athletics](https://instagram.com/top.notch.egypt), a single-branch athletic performance gym in Cairo, ran bookings and attendance entirely through Instagram DMs. I designed and built a bilingual (EN/AR, RTL-ready) Next.js platform that pairs a public marketing site with a role-separated internal system for admins, staff, coaches, and athletes. Attendance runs on permanent per-account QR codes scanned at the front desk, with all validation (active subscription, sessions remaining, duplicate check-in) enforced server-side. Subscriptions, session scheduling, and WhatsApp expiry reminders are handled in the same Supabase-backed system, with row-level security isolating every role from day one.\n\nClient: [@top.notch.egypt](https://www.instagram.com/top.notch.egypt)",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -180,7 +180,7 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "ICPC Egyptian Collegiate Programming Contest — Honorable Mention",
+      title: "ICPC Egyptian Collegiate Programming Contest: Honorable Mention",
       dates: "August 2025",
       location: "Cairo, Egypt",
       description:
@@ -195,7 +195,7 @@ export const DATA = {
       ],
     },
     {
-      title: "ICPC ECPC Qualifications — 28th Place",
+      title: "ICPC ECPC Qualifications: 28th Place",
       dates: "July 2025",
       location: "Cairo, Egypt",
       description:
