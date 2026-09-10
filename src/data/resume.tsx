@@ -153,7 +153,7 @@ export const DATA = {
     },
     {
       title: "Nile Crest Properties — Real Estate CRM",
-      href: "https://demo-portfolio.webcrm.app",
+      href: "https://demo-portfolio.webcrm.app/demo",
       dates: "2026",
       active: true,
       description:
@@ -170,11 +170,11 @@ export const DATA = {
       links: [
         {
           type: "Live Demo",
-          href: "https://demo-portfolio.webcrm.app",
+          href: "https://demo-portfolio.webcrm.app/demo",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/nilecrest-cover.png",
       video: "",
     },
   ],
