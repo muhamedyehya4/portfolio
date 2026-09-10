@@ -125,7 +125,7 @@ export const DATA = {
   projects: [
     {
       title: "Top Notch Athletics — Gym Management Platform",
-      href: "https://instagram.com/top.notch.egypt",
+      href: "https://top-notch-athletics.vercel.app/demo",
       dates: "2026 - Present",
       active: true,
       description:
@@ -149,7 +149,7 @@ export const DATA = {
         },
         {
           type: "Live Demo",
-          href: "https://top-notch-athletics.vercel.app/app",
+          href: "https://top-notch-athletics.vercel.app/demo",
           icon: <Icons.globe className="size-3" />,
         },
       ],
