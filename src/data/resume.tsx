@@ -230,7 +230,7 @@ export const DATA = {
       location: "ALX",
       description:
         "Eight-week programme in AI-augmented professional development skills for the digital age.",
-      image: "/alx.jpg",
+      image: "/alx.png",
       links: [
         {
           title: "Verify",
