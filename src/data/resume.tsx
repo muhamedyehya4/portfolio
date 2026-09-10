@@ -15,9 +15,9 @@ export const DATA = {
   location: "Cairo, Egypt",
   locationLink: "https://www.google.com/maps/place/cairo",
   description:
-    "CS student who ships. I build and deploy production systems — CRMs, ops platforms and internal tools — for real clients.",
+    "I build production software for paying clients — a multi-tenant CRM, a gym operations platform — from schema design through to deployment.",
   summary:
-    "Third-year Computer Science student at Egyptian Chinese University. I build and ship business systems end to end: a multi-tenant real estate CRM running live with paying agencies, and a gym management platform handling memberships, scheduling and QR check-in. Next.js, TypeScript, Supabase and Postgres, with a focus on role-based access and getting things into production.",
+    "Computer Science student at Egyptian Chinese University, in my third year. Most of what I know came from shipping: a multi-tenant real estate CRM used daily by brokerage teams, and a gym management platform covering memberships, scheduling and QR check-in. I work in TypeScript and Next.js on Postgres via Supabase, and I care most about the parts that are easy to get wrong — row-level security, role separation, and server-side validation that holds when the UI lies. Both live systems are linked below with one-click demo access.",
   avatarUrl: "/me.png",
   skills: [
     { name: "TypeScript", icon: Typescript },
@@ -80,7 +80,7 @@ export const DATA = {
       href: "",
       badges: [],
       location: "Cairo, Egypt",
-      title: "Software Developer",
+      title: "Founder & Software Developer",
       logoUrl: "",
       start: "Feb 2026",
       end: "Present",
@@ -154,7 +154,7 @@ export const DATA = {
     {
       title: "Multi-Tenant Real Estate CRM",
       href: "https://demo-portfolio.webcrm.app/demo",
-      dates: "2026",
+      dates: "2026 - Present",
       active: true,
       description:
         "Multi-tenant CRM for Egyptian real estate brokerages. Leads from Meta and TikTok ads land in a shared pool, then route down through managers, team leaders and agents, with per-agent row-level isolation. Automatic discipline rules: daily pull cap, mandatory comments on status changes, stale leads recycled back to the pool. The live demo signs you in as an admin of a seeded agency with ~3,900 leads and resets nightly.\n\nClient: [@shahba.investments](https://www.instagram.com/shahba.investments/)",
@@ -238,15 +238,6 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-    },
-    {
-      title: "Google AI Essentials",
-      dates: "2025",
-      location: "Coursera",
-      description:
-        "Google certificate covering practical use of generative AI tools for everyday professional work.",
-      image: "/google.webp",
-      links: [],
     },
   ],
 } as const;
