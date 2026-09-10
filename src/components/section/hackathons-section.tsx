@@ -2,6 +2,7 @@
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { DATA } from "@/data/resume";
+import { externalLinkProps } from "@/lib/utils";
 import { Timeline, TimelineItem, TimelineConnectItem } from "@/components/timeline";
 
 export default function HackathonsSection() {
@@ -61,8 +62,7 @@ export default function HackathonsSection() {
                       <Link
                         href={link.href}
                         key={idx}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        {...externalLinkProps(link.href)}
                       >
                         <Badge className="flex items-center gap-1.5 text-xs bg-primary text-primary-foreground">
                           {link.icon}

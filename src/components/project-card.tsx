@@ -2,7 +2,7 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
-import { cn } from "@/lib/utils";
+import { cn, externalLinkProps } from "@/lib/utils";
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { useCallback, useState } from "react";
@@ -29,8 +29,7 @@ const markdownComponents = {
   a: ({ href, children }: { href?: string; children?: React.ReactNode }) => (
     <a
       href={href}
-      target="_blank"
-      rel="noopener noreferrer"
+      {...externalLinkProps(href)}
       className="underline"
       onClick={(e) => e.stopPropagation()}
     >
@@ -120,8 +119,7 @@ export function ProjectCard({
               <Link
                 href={link.href}
                 key={idx}
-                target="_blank"
-                rel="noopener noreferrer"
+                {...externalLinkProps(link.href)}
                 onClick={(e) => e.stopPropagation()}
               >
                 <Badge

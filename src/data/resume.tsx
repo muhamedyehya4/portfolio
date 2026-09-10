@@ -93,7 +93,7 @@ export const DATA = {
       badges: [],
       location: "Cairo, Egypt",
       title: "Property Advisor",
-      logoUrl: "/taskeen.jpg",
+      logoUrl: "/taskeen.png",
       start: "Nov 2025",
       end: "Feb 2026",
       description:
@@ -105,7 +105,7 @@ export const DATA = {
       badges: [],
       location: "Cairo, Egypt",
       title: "Social Media Specialist",
-      logoUrl: "/shahba.jpg",
+      logoUrl: "/shahba.png",
       start: "Aug 2025",
       end: "Oct 2025",
       description:

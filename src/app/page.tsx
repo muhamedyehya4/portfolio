@@ -10,6 +10,7 @@ import HackathonsSection from "@/components/section/hackathons-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight } from "lucide-react";
+import { externalLinkProps } from "@/lib/utils";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -78,8 +79,7 @@ export default function Page() {
               >
                 <Link
                   href={education.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  {...externalLinkProps(education.href)}
                   className="flex items-center gap-x-3 justify-between group"
                 >
                   <div className="flex items-center gap-x-3 flex-1 min-w-0">
