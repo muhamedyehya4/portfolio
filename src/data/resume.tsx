@@ -152,7 +152,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Multi-Tenant Real Estate CRM",
+      title: "Azure Coast Realty — Real Estate CRM",
       href: "https://demo-portfolio.webcrm.app/demo",
       dates: "2026 - Present",
       active: true,
@@ -174,7 +174,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/nilecrest-cover.png",
+      image: "/azurecoast-cover.png",
       video: "",
     },
   ],
