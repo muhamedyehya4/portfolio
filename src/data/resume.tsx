@@ -152,7 +152,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Azure Coast Realty — Real Estate CRM",
+      title: "Real Estate CRM for Brokerage Firms",
       href: "https://demo-portfolio.webcrm.app/demo",
       dates: "2026 - Present",
       active: true,
