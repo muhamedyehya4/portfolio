@@ -18,7 +18,6 @@ export const DATA = {
     "I build production software for paying clients, a multi-tenant CRM and a gym operations platform, handling everything from schema design through to deployment.",
   summary:
     "Computer Science student at Egyptian Chinese University, in my third year. Most of what I know came from shipping: a multi-tenant real estate CRM used daily by brokerage teams, and a gym management platform covering memberships, scheduling and QR check-in. I work in TypeScript and Next.js on Postgres via Supabase, and I care most about the parts that are easy to get wrong: row-level security, role separation, and server-side validation that holds when the UI lies. Both live systems are linked below with one-click demo access.",
-  avatarUrl: "/me.png",
   skills: [
     { name: "TypeScript", icon: Typescript },
     { name: "JavaScript", icon: undefined },
