@@ -177,6 +177,42 @@ export const DATA = {
       image: "/azurecoast-cover.png",
       video: "",
     },
+    {
+      title: "Avoure — Luxury Home Decor Storefront",
+      href: "https://avoure-storefront-nu.vercel.app/eg",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "Headless e-commerce storefront on Medusa v2 + Next.js 15 for a Cairo home-decor brand. Single-page progressive checkout, COD flow, guest order tracking. Demo runs fully client-side with simulated catalog, cart, and orders.",
+      technologies: ["Next.js", "Medusa v2", "TypeScript", "Tailwind", "Supabase"],
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://avoure-storefront-nu.vercel.app/eg",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/avoure-storefront-cover.png",
+      video: "",
+    },
+    {
+      title: "Avoure — Commerce Admin Dashboard",
+      href: "https://avoure-admin-demo-site.vercel.app/app/orders",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "The store's Medusa admin with a custom store-lock widget, running backend-free via a Mock Service Worker API layer. Browse orders, products, customers, and inventory; edits persist until reload.",
+      technologies: ["React", "Medusa Admin SDK", "MSW", "TypeScript"],
+      links: [
+        {
+          type: "Live Demo",
+          href: "https://avoure-admin-demo-site.vercel.app/app/orders",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/avoure-admin-cover.png",
+      video: "",
+    },
   ],
   hackathons: [
     {
