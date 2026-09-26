@@ -192,7 +192,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/avoure-storefront-cover.png",
+      image: "/avoure-storefront-cover.jpg",
       video: "",
     },
     {
@@ -210,7 +210,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/avoure-admin-cover.png",
+      image: "/avoure-admin-cover.jpg",
       video: "",
     },
   ],
