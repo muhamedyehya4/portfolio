@@ -11,13 +11,13 @@ import { Csharp } from "@/components/ui/svgs/csharp";
 export const DATA = {
   name: "Mohamed Yehya",
   initials: "MY",
-  url: "https://github.com/muhamedyehya4",
+  url: "https://mohamedyehya.vercel.app",
   location: "Cairo, Egypt",
   locationLink: "https://www.google.com/maps/place/cairo",
   description:
-    "I build production software for paying clients, a multi-tenant CRM and a gym operations platform, handling everything from schema design through to deployment.",
+    "Full-stack developer in Cairo. Next.js, TypeScript, Postgres, Supabase — multi-tenant apps, e-commerce, workflow automation.",
   summary:
-    "Computer Science student at Egyptian Chinese University, in my third year. Most of what I know came from shipping: a multi-tenant real estate CRM used daily by brokerage teams, and a gym management platform covering memberships, scheduling and QR check-in. I work in TypeScript and Next.js on Postgres via Supabase, and I care most about the parts that are easy to get wrong: row-level security, role separation, and server-side validation that holds when the UI lies. Both live systems are linked below with one-click demo access.",
+    "I build multi-tenant web apps and automation systems: role-based access, row-level security, server-side validation, race-condition-safe bookings. Stack is TypeScript and Next.js on Postgres via Supabase, plus n8n for workflow automation. BSc (Hons) Computer Science, University of Westminster.",
   skills: [
     { name: "TypeScript", icon: Typescript },
     { name: "JavaScript", icon: undefined },
@@ -51,7 +51,7 @@ export const DATA = {
 
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/muhamed-yehya",
+        url: "https://www.linkedin.com/in/mohamed-yehya-59514531b/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -75,16 +75,16 @@ export const DATA = {
 
   work: [
     {
-      company: "SwiftStack",
+      company: "Fiverr (Freelance)",
       href: "",
       badges: [],
       location: "Cairo, Egypt",
-      title: "Founder & Software Developer",
-      logoUrl: "/swiftstack.png",
+      title: "Freelance Software Developer",
+      logoUrl: "",
       start: "Feb 2026",
       end: "Present",
       description:
-        "Building an automated clinic management system with a team of four, covering appointment scheduling, patient intake, follow-ups and no-show reduction. Responsible for system architecture and workflow design.",
+        "• Built n8n + Postgres + LLM automation pipelines handling WhatsApp-based appointment booking, intake and follow-ups for a clinic system (4 pipelines, 148 nodes), with a team of four. • Owned system architecture and workflow design, including state handling across multi-step conversations and idempotent message processing. • Delivered client automation and internal tooling as a freelancer on Fiverr.",
     },
     {
       company: "Taskeen Egypt",
@@ -113,9 +113,9 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Egyptian Chinese University",
+      school: "University of Westminster",
       href: "",
-      degree: "B.Sc. in Computer Science",
+      degree: "BSc (Hons) Computer Science",
       logoUrl: "/ecu.png",
       start: "2024",
       end: "2028",
@@ -128,7 +128,7 @@ export const DATA = {
       dates: "2026 - Present",
       active: true,
       description:
-        "[Top Notch Athletics](https://instagram.com/top.notch.egypt), a single-branch athletic performance gym in Cairo, ran bookings and attendance entirely through Instagram DMs. I designed and built a bilingual (EN/AR, RTL-ready) Next.js platform that pairs a public marketing site with a role-separated internal system for admins, staff, coaches, and athletes. Attendance runs on permanent per-account QR codes scanned at the front desk, with all validation (active subscription, sessions remaining, duplicate check-in) enforced server-side. Subscriptions, session scheduling, and WhatsApp expiry reminders are handled in the same Supabase-backed system, with row-level security isolating every role from day one.\n\nClient: [@top.notch.egypt](https://www.instagram.com/top.notch.egypt)",
+        "Bilingual (EN/AR, RTL) Next.js platform for a Cairo gym: public marketing site plus a role-separated internal system for admins, staff, coaches and athletes.\n\n• Attendance via permanent per-account QR codes, with subscription status, sessions-remaining and duplicate-check-in validated server-side, not in the UI.\n• Row-level security isolating data by role (admin/staff/coach/athlete) at the database layer.\n• WhatsApp expiry reminders wired through Evolution API against subscription state in Postgres.\n\nClient: [@top.notch.egypt](https://www.instagram.com/top.notch.egypt)",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -156,7 +156,7 @@ export const DATA = {
       dates: "2026 - Present",
       active: true,
       description:
-        "Multi-tenant CRM for Egyptian real estate brokerages. Leads from Meta and TikTok ads land in a shared pool, then route down through managers, team leaders and agents, with per-agent row-level isolation. Automatic discipline rules: daily pull cap, mandatory comments on status changes, stale leads recycled back to the pool. The live demo signs you in as an admin of a seeded agency with ~3,900 leads and resets nightly.\n\nClient: [@shahba.investments](https://www.instagram.com/shahba.investments/)",
+        "Multi-tenant CRM for Egyptian real estate brokerages. Leads from Meta and TikTok ads land in a shared pool, then route down through managers, team leaders and agents.\n\n• Postgres row-level security enforcing per-agent data isolation across a shared multi-tenant schema.\n• Role-based access hierarchy (manager → team leader → agent) with server-side enforcement of what each role can see and edit.\n• Lead-discipline rules run server-side: daily pull cap, mandatory comments on status changes, stale leads recycled back to the pool.\n\nLive demo seeds an admin account with ~3,900 leads and resets nightly.\n\nClient: [@shahba.investments](https://www.instagram.com/shahba.investments/)",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -182,7 +182,7 @@ export const DATA = {
       dates: "2026 - Present",
       active: true,
       description:
-        "Headless e-commerce storefront on Medusa v2 + Next.js 15 for a Cairo home-decor brand. Single-page progressive checkout, COD flow, guest order tracking. Demo runs fully client-side with simulated catalog, cart, and orders.",
+        "Headless e-commerce storefront on Medusa v2 + Next.js 15 for a Cairo home-decor brand.\n\n• Single-page progressive checkout with a cash-on-delivery flow and guest order tracking.\n• Demo runs fully client-side against a mocked catalog, cart and order API, with no live backend.",
       technologies: ["Next.js", "Medusa v2", "TypeScript", "Tailwind", "Supabase"],
       links: [
         {
@@ -200,7 +200,7 @@ export const DATA = {
       dates: "2026 - Present",
       active: true,
       description:
-        "The store's Medusa admin with a custom store-lock widget, running backend-free via a Mock Service Worker API layer. Browse orders, products, customers, and inventory; edits persist until reload.",
+        "The Avoure store's Medusa admin dashboard with a custom store-lock widget.\n\n• Runs backend-free via a Mock Service Worker API layer intercepting the Medusa Admin SDK's requests.\n• Orders, products, customers and inventory are browsable and editable; edits persist in-session until reload.",
       technologies: ["React", "Medusa Admin SDK", "MSW", "TypeScript"],
       links: [
         {
@@ -210,6 +210,24 @@ export const DATA = {
         },
       ],
       image: "/avoure-admin-cover.jpg",
+      video: "",
+    },
+    {
+      title: "Clinic Automation System",
+      href: "https://github.com/muhamedyehya4/clinic-automation-system",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "n8n + Postgres + LLM WhatsApp booking and automation system for a clinic: 4 pipelines, 148 nodes, handling intake, scheduling and follow-ups end to end.\n\n• Multi-step conversation state managed across pipelines so a WhatsApp thread can span booking, rescheduling and follow-up without losing context.\n• Idempotent webhook handling so retried WhatsApp events don't double-book or duplicate messages.\n\nBuilt with a team of four; I owned system architecture and workflow design.",
+      technologies: ["n8n", "PostgreSQL", "LLM", "WhatsApp API"],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/muhamedyehya4/clinic-automation-system",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
       video: "",
     },
   ],

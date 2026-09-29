@@ -8,12 +8,19 @@ import ContactSection from "@/components/section/contact-section";
 import HackathonsSection from "@/components/section/hackathons-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, FileText } from "lucide-react";
 import { externalLinkProps } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
+import fs from "fs";
+import path from "path";
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
+  const cvAvailable = fs.existsSync(
+    path.join(process.cwd(), "public", "cv.pdf")
+  );
+
   return (
     <main className="min-h-dvh flex flex-col gap-14 relative">
       <section id="hero">
@@ -30,6 +37,18 @@ export default function Page() {
               delay={BLUR_FADE_DELAY}
               text={DATA.description}
             />
+            {cvAvailable && (
+              <BlurFade delay={BLUR_FADE_DELAY * 2}>
+                <div className="flex gap-2 pt-2">
+                  <Button asChild size="sm" variant="outline">
+                    <Link href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+                      <FileText className="size-4" />
+                      View CV
+                    </Link>
+                  </Button>
+                </div>
+              </BlurFade>
+            )}
           </div>
         </div>
       </section>
