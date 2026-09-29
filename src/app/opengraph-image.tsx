@@ -52,7 +52,7 @@ export default function Image() {
             {DATA.name}
           </div>
           <div style={{ fontSize: 40, color: "#a3a3a3", marginTop: 20 }}>
-            Full-Stack Developer · {DATA.location}
+            {`Full-Stack Developer · ${DATA.location}`}
           </div>
           <div
             style={{
