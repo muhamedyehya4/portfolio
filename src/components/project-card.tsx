@@ -104,13 +104,15 @@ export function ProjectCard({
             className="w-full h-48 object-cover"
           />
         ) : image ? (
-          <ProjectImage src={image} alt={title} />
+          <ProjectImage src={image} alt={`Screenshot of ${title}`} />
         ) : (
           <div className="w-full h-48 bg-muted" />
         )}
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-visible:opacity-100">
           <span className="text-sm font-medium text-white">
-            Click to explore the live demo
+            {links?.[0]?.type === "GitHub"
+              ? "View the source on GitHub"
+              : "Click to explore the live demo"}
           </span>
         </div>
         {links && links.length > 0 && (

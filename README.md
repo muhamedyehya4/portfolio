@@ -1,47 +1,22 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# Mohamed Yehya — Portfolio
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+Personal portfolio of Mohamed Yehya, a full-stack developer in Cairo building multi-tenant web apps, e-commerce and workflow automation.
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+**Live:** https://mohamedyehya.vercel.app
 
-# Features
+## Stack
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+- Next.js (App Router), React, TypeScript
+- Tailwind CSS, shadcn/ui, Motion
+- Deployed on Vercel
 
-# Getting Started Locally
+All content (projects, experience, certifications, links) lives in [`src/data/resume.tsx`](./src/data/resume.tsx). The OG image, favicon, sitemap and robots.txt are generated from the same data in `src/app/`.
 
-1. Clone this repository to your local machine:
+## Run locally
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+```bash
+pnpm install
+pnpm dev
+```
 
-2. Move to the cloned directory
-
-   ```bash
-   cd portfolio
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   pnpm install
-   ```
-
-4. Start the local Server:
-
-   ```bash
-   pnpm dev
-   ```
-
-5. Open the [Config file](./src/data/resume.tsx) and make changes
-
-# License
-
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+Based on the open-source [portfolio template](https://github.com/dillionverma/portfolio) by Dillion Verma (MIT, see [LICENSE](./LICENSE)).

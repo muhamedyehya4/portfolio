@@ -20,20 +20,32 @@ const geistMono = Geist_Mono({
   variable: "--font-mono",
 });
 
+const TITLE = `${DATA.name} — Full-Stack Developer`;
+const DESCRIPTION = DATA.summary.split(/(?<=\.)\s/)[0];
+
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {
-    default: DATA.name,
+    default: TITLE,
     template: `%s | ${DATA.name}`,
   },
-  description: DATA.description,
+  description: DESCRIPTION,
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: `${DATA.name}`,
-    description: DATA.description,
+    title: TITLE,
+    description: DESCRIPTION,
     url: DATA.url,
-    siteName: `${DATA.name}`,
+    siteName: DATA.name,
     locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESCRIPTION,
+    images: ["/opengraph-image"],
   },
   robots: {
     index: true,
@@ -45,14 +57,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  twitter: {
-    title: `${DATA.name}`,
-    card: "summary_large_image",
-  },
-  verification: {
-    google: "",
-    yandex: "",
   },
 };
 

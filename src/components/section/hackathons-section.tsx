@@ -34,7 +34,7 @@ export default function HackathonsSection() {
                 {hackathon.image ? (
                   <img
                     src={hackathon.image}
-                    alt={hackathon.title}
+                    alt={`${hackathon.issuer} logo`}
                     className="size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-border object-contain flex-none"
                   />
                 ) : (

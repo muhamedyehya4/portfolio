@@ -18,9 +18,13 @@ export default function Navbar() {
           return (
             <Tooltip key={item.href}>
               <TooltipTrigger asChild>
-                <a href={item.href} {...externalLinkProps(item.href)}>
+                <a
+                  href={item.href}
+                  aria-label={item.ariaLabel ?? item.label}
+                  {...externalLinkProps(item.href)}
+                >
                   <DockIcon className="rounded-3xl cursor-pointer size-full bg-background p-0 text-muted-foreground hover:text-foreground hover:bg-muted backdrop-blur-3xl border border-border transition-colors">
-                    <item.icon className="size-full rounded-sm overflow-hidden object-contain" />
+                    <item.icon className="size-full rounded-sm overflow-hidden object-contain" aria-hidden />
                   </DockIcon>
                 </a>
               </TooltipTrigger>
@@ -46,9 +50,13 @@ export default function Navbar() {
             return (
               <Tooltip key={`social-${name}-${index}`}>
                 <TooltipTrigger asChild>
-                  <a href={social.url} {...externalLinkProps(social.url)}>
+                  <a
+                    href={social.url}
+                    aria-label={`${social.name} (opens in a new tab)`}
+                    {...externalLinkProps(social.url)}
+                  >
                     <DockIcon className="rounded-3xl cursor-pointer size-full bg-background p-0 text-muted-foreground hover:text-foreground hover:bg-muted backdrop-blur-3xl border border-border transition-colors">
-                      <IconComponent className="size-full rounded-sm overflow-hidden object-contain" />
+                      <IconComponent className="size-full rounded-sm overflow-hidden object-contain" aria-hidden />
                     </DockIcon>
                   </a>
                 </TooltipTrigger>

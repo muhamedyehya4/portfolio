@@ -6,7 +6,6 @@ import { Typescript } from "@/components/ui/svgs/typescript";
 import { Nodejs } from "@/components/ui/svgs/nodejs";
 import { Python } from "@/components/ui/svgs/python";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
-import { Csharp } from "@/components/ui/svgs/csharp";
 
 export const DATA = {
   name: "Mohamed Yehya",
@@ -28,15 +27,20 @@ export const DATA = {
     { name: "Supabase", icon: undefined },
     { name: "Tailwind CSS", icon: undefined },
     { name: "Python", icon: Python },
-    { name: "C++", icon: Csharp },
+    { name: "C++", icon: undefined },
     { name: "REST APIs", icon: undefined },
     { name: "Git", icon: undefined },
     { name: "Vercel", icon: undefined },
     { name: "n8n", icon: undefined },
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/cv.pdf", icon: FileTextIcon, label: "CV" },
+    { href: "/", icon: HomeIcon, label: "Home", ariaLabel: undefined },
+    {
+      href: "/cv.pdf",
+      icon: FileTextIcon,
+      label: "CV",
+      ariaLabel: "View CV (PDF, opens in a new tab)",
+    },
   ],
   contact: {
     email: "muhamedyehya4@gmail.com",
@@ -55,20 +59,6 @@ export const DATA = {
         icon: Icons.linkedin,
 
         navbar: true,
-      },
-      X: {
-        name: "X",
-        url: "#",
-        icon: Icons.x,
-
-        navbar: false,
-      },
-      email: {
-        name: "Send Email",
-        url: "#",
-        icon: Icons.email,
-
-        navbar: false,
       },
     },
   },
@@ -239,6 +229,7 @@ export const DATA = {
       description:
         "Earned an Honorable Mention at the 2025 ICPC Egyptian Collegiate Programming Contest, the national finals of the International Collegiate Programming Contest.",
       image: "/icpc.png",
+      issuer: "ICPC",
       links: [
         {
           title: "Certificate",
@@ -254,6 +245,7 @@ export const DATA = {
       description:
         "Placed 28th in the 2025 ICPC ECPC qualification round, competing on algorithmic problem solving under contest time limits.",
       image: "/icpc.png",
+      issuer: "ICPC",
       links: [
         {
           title: "Certificate",
@@ -269,6 +261,7 @@ export const DATA = {
       description:
         "Eight-course Google professional certificate covering digital marketing foundations, campaign measurement, email marketing and running e-commerce stores.",
       image: "/google.webp",
+      issuer: "Google",
       links: [
         {
           title: "Verify",
@@ -284,6 +277,7 @@ export const DATA = {
       description:
         "Eight-week programme in AI-augmented professional development skills for the digital age.",
       image: "/alx.png",
+      issuer: "ALX",
       links: [
         {
           title: "Verify",

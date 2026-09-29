@@ -41,8 +41,13 @@ export default function Page() {
               <BlurFade delay={BLUR_FADE_DELAY * 2}>
                 <div className="flex gap-2 pt-2">
                   <Button asChild size="sm" variant="outline">
-                    <Link href="/cv.pdf" target="_blank" rel="noopener noreferrer">
-                      <FileText className="size-4" />
+                    <Link
+                      href="/cv.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="View CV (PDF, opens in a new tab)"
+                    >
+                      <FileText className="size-4" aria-hidden />
                       View CV
                     </Link>
                   </Button>
@@ -96,7 +101,7 @@ export default function Page() {
                     {education.logoUrl ? (
                       <img
                         src={education.logoUrl}
-                        alt={education.school}
+                        alt={`${education.school} logo`}
                         className="size-8 md:size-10 p-1 border rounded-full shadow ring-2 ring-border overflow-hidden object-contain flex-none"
                       />
                     ) : (
