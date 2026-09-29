@@ -17,7 +17,7 @@ export const DATA = {
   description:
     "Full-stack developer in Cairo. Next.js, TypeScript, Postgres, Supabase — multi-tenant apps, e-commerce, workflow automation.",
   summary:
-    "I build multi-tenant web apps and automation systems: role-based access, row-level security, server-side validation, race-condition-safe bookings. Stack is TypeScript and Next.js on Postgres via Supabase, plus n8n for workflow automation. BSc (Hons) Computer Science, University of Westminster.",
+    "I build multi-tenant web apps and automation systems: role-based access, row-level security, server-side validation, race-condition-safe bookings. Stack is TypeScript and Next.js on Postgres via Supabase, plus n8n for workflow automation. B.Sc. in Computer Science, Egyptian Chinese University.",
   skills: [
     { name: "TypeScript", icon: Typescript },
     { name: "JavaScript", icon: undefined },
@@ -113,9 +113,9 @@ export const DATA = {
   ],
   education: [
     {
-      school: "University of Westminster",
+      school: "Egyptian Chinese University",
       href: "",
-      degree: "BSc (Hons) Computer Science",
+      degree: "B.Sc. in Computer Science",
       logoUrl: "/ecu.png",
       start: "2024",
       end: "2028",
