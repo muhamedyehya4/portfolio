@@ -84,7 +84,7 @@ export const DATA = {
       start: "Feb 2026",
       end: "Present",
       description:
-        "• Built n8n + Postgres + LLM automation pipelines handling WhatsApp-based appointment booking, intake and follow-ups for a clinic system (4 pipelines, 148 nodes), with a team of four. • Owned system architecture and workflow design, including state handling across multi-step conversations and idempotent message processing. • Delivered client automation and internal tooling as a freelancer on Fiverr.",
+        "• Built and shipped a multi-tenant real estate CRM for a brokerage, with Postgres row-level security and role-based lead routing (Next.js, Supabase). • Built a bilingual (EN/AR) gym management platform with QR attendance, server-side subscription validation and WhatsApp reminders. • Built a headless Medusa v2 + Next.js e-commerce storefront and admin for a Cairo home-decor brand.",
     },
     {
       company: "Taskeen Egypt",
@@ -218,7 +218,7 @@ export const DATA = {
       dates: "2026 - Present",
       active: true,
       description:
-        "n8n + Postgres + LLM WhatsApp booking and automation system for a clinic: 4 pipelines, 148 nodes, handling intake, scheduling and follow-ups end to end.\n\n• Multi-step conversation state managed across pipelines so a WhatsApp thread can span booking, rescheduling and follow-up without losing context.\n• Idempotent webhook handling so retried WhatsApp events don't double-book or duplicate messages.\n\nBuilt with a team of four; I owned system architecture and workflow design.",
+        "n8n + Postgres + LLM WhatsApp booking and automation system for a clinic: 4 pipelines, 148 nodes, handling intake, scheduling and follow-ups end to end.\n\n• LLM classifies inbound WhatsApp intent and drives routing across booking, risk triage, escalation and review-request paths.\n• Booking agent checks slot availability via a Postgres advisory-locked stored procedure; unique constraints and NULL-guarded updates stop reminders and triage alerts firing twice.\n\nBuilt with a team of four; I owned system architecture and workflow design.",
       technologies: ["n8n", "PostgreSQL", "LLM", "WhatsApp API"],
       links: [
         {

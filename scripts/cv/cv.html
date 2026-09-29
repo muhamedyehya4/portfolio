@@ -6,46 +6,46 @@
 <style>
   @page {
     size: A4;
-    margin: 14mm;
+    margin: 10mm;
   }
   * { box-sizing: border-box; }
   body {
     font-family: Calibri, Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 10.5pt;
-    line-height: 1.38;
+    font-size: 9.5pt;
+    line-height: 1.2;
     color: #111;
     margin: 0;
   }
   h1 {
-    font-size: 20pt;
+    font-size: 18pt;
     margin: 0 0 2pt 0;
     font-weight: 700;
   }
   .contact {
-    font-size: 9.5pt;
+    font-size: 9pt;
     color: #333;
-    margin: 0 0 10pt 0;
+    margin: 0 0 7pt 0;
   }
   .contact a {
     color: #111;
     text-decoration: none;
   }
   h2 {
-    font-size: 11.5pt;
+    font-size: 10pt;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     border-bottom: 1px solid #999;
-    padding-bottom: 2pt;
-    margin: 12pt 0 6pt 0;
+    padding-bottom: 1pt;
+    margin: 5pt 0 2pt 0;
   }
   h2:first-of-type { margin-top: 0; }
-  p { margin: 0 0 6pt 0; }
+  p { margin: 0 0 4pt 0; }
   ul {
-    margin: 2pt 0 8pt 0;
-    padding-left: 14pt;
+    margin: 1pt 0 4pt 0;
+    padding-left: 13pt;
   }
-  li { margin-bottom: 2pt; }
-  .entry { margin-bottom: 8pt; }
+  li { margin-bottom: 1pt; }
+  .entry { margin-bottom: 4pt; }
   .entry:last-child { margin-bottom: 0; }
   .entry-head {
     display: flex;
@@ -53,20 +53,18 @@
     font-weight: 700;
   }
   .entry-sub {
-    display: flex;
-    justify-content: space-between;
     font-style: italic;
     color: #333;
-    margin-bottom: 2pt;
+    margin-bottom: 1pt;
   }
-  .skills-line { margin-bottom: 4pt; }
+  .skills-line { margin-bottom: 2pt; }
   .skills-line b { font-weight: 700; }
   .proj-name { font-weight: 700; }
-  .proj-line { margin: 0 0 2pt 0; }
+  .proj-line { margin: 0 0 1pt 0; }
   .proj-stack {
     font-style: italic;
     color: #333;
-    margin: 0 0 3pt 0;
+    margin: 0 0 2pt 0;
   }
 </style>
 </head>
@@ -97,17 +95,17 @@
 
 <div class="entry">
   <div class="entry-head"><span>Freelance Software Developer</span><span>Feb 2026 – Present</span></div>
-  <div class="entry-sub"><span>Fiverr (Freelance)</span><span>Cairo, Egypt</span></div>
+  <div class="entry-sub">Fiverr (Freelance)</div>
   <ul>
-    <li>Built n8n + Postgres + LLM automation pipelines handling WhatsApp-based appointment booking, intake and follow-ups for a clinic system (4 pipelines, 148 nodes), with a team of four.</li>
-    <li>Owned system architecture and workflow design, including state handling across multi-step conversations and idempotent message processing.</li>
-    <li>Delivered client automation and internal tooling as a freelancer on Fiverr.</li>
+    <li>Built and shipped a multi-tenant real estate CRM for a brokerage, with Postgres row-level security and role-based lead routing (Next.js, Supabase).</li>
+    <li>Built a bilingual (EN/AR) gym management platform with QR attendance, server-side subscription validation and WhatsApp reminders.</li>
+    <li>Built a headless Medusa v2 + Next.js e-commerce storefront and admin for a Cairo home-decor brand.</li>
   </ul>
 </div>
 
 <div class="entry">
   <div class="entry-head"><span>Property Advisor</span><span>Nov 2025 – Feb 2026</span></div>
-  <div class="entry-sub"><span>Taskeen Egypt</span><span>Cairo, Egypt</span></div>
+  <div class="entry-sub">Taskeen Egypt</div>
   <ul>
     <li>Managed client relationships from first contact through deal closure, including lead qualification and property presentations.</li>
     <li>Matched client requirements to available properties and tracked deals through a CRM pipeline to negotiation and contract finalization.</li>
@@ -116,7 +114,7 @@
 
 <div class="entry">
   <div class="entry-head"><span>Social Media Specialist</span><span>Aug 2025 – Oct 2025</span></div>
-  <div class="entry-sub"><span>Shahba Designs</span><span>Cairo, Egypt</span></div>
+  <div class="entry-sub">Shahba Designs</div>
   <ul>
     <li>Ran the brand's social accounts end to end: content planning, scheduling, posting and audience engagement.</li>
     <li>Shot and edited video content for campaigns.</li>
@@ -126,7 +124,7 @@
 <h2>Projects</h2>
 
 <div class="entry">
-  <p class="proj-line"><span class="proj-name">Real Estate CRM for Brokerage Firms</span> — Multi-tenant CRM for Egyptian real estate brokerages; leads route from a shared pool down through managers, team leaders and agents. (<a href="https://demo-portfolio.webcrm.app/demo">Live demo</a>)</p>
+  <p class="proj-line"><span class="proj-name">Real Estate CRM for Brokerage Firms</span> — Multi-tenant CRM for Egyptian real estate brokerages. (<a href="https://demo-portfolio.webcrm.app/demo">Live demo</a>)</p>
   <p class="proj-stack">Next.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL, Row Level Security, Vercel</p>
   <ul>
     <li>Postgres row-level security enforcing per-agent data isolation across a shared multi-tenant schema.</li>
@@ -135,7 +133,7 @@
 </div>
 
 <div class="entry">
-  <p class="proj-line"><span class="proj-name">Top Notch Athletics: Gym Management Platform</span> — Bilingual (EN/AR, RTL) Next.js platform pairing a public marketing site with a role-separated internal system for admins, staff, coaches and athletes. (<a href="https://top-notch-athletics.vercel.app/demo">Live demo</a>)</p>
+  <p class="proj-line"><span class="proj-name">Top Notch Athletics: Gym Management Platform</span> — Bilingual (EN/AR, RTL) gym platform with role-separated admin/staff/coach/athlete access. (<a href="https://top-notch-athletics.vercel.app/demo">Live demo</a>)</p>
   <p class="proj-stack">Next.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL, Row Level Security, Vercel, Evolution API, i18n/RTL</p>
   <ul>
     <li>Attendance via permanent per-account QR codes, with subscription status, sessions-remaining and duplicate-check-in validated server-side.</li>
@@ -144,7 +142,7 @@
 </div>
 
 <div class="entry">
-  <p class="proj-line"><span class="proj-name">Avoure — Luxury Home Decor Storefront</span> — Headless e-commerce storefront on Medusa v2 + Next.js 15 for a Cairo home-decor brand. (<a href="https://avoure-storefront-nu.vercel.app/eg">Live demo</a>)</p>
+  <p class="proj-line"><span class="proj-name">Avoure — Luxury Home Decor Storefront</span> — Headless Medusa v2 + Next.js 15 e-commerce storefront. (<a href="https://avoure-storefront-nu.vercel.app/eg">Live demo</a>)</p>
   <p class="proj-stack">Next.js, Medusa v2, TypeScript, Tailwind, Supabase</p>
   <ul>
     <li>Single-page progressive checkout with a cash-on-delivery flow and guest order tracking.</li>
@@ -153,7 +151,7 @@
 </div>
 
 <div class="entry">
-  <p class="proj-line"><span class="proj-name">Avoure — Commerce Admin Dashboard</span> — The Avoure store's Medusa admin dashboard with a custom store-lock widget. (<a href="https://avoure-admin-demo-site.vercel.app/app/orders">Live demo</a>)</p>
+  <p class="proj-line"><span class="proj-name">Avoure — Commerce Admin Dashboard</span> — Medusa admin dashboard with a custom store-lock widget. (<a href="https://avoure-admin-demo-site.vercel.app/app/orders">Live demo</a>)</p>
   <p class="proj-stack">React, Medusa Admin SDK, MSW, TypeScript</p>
   <ul>
     <li>Runs backend-free via a Mock Service Worker API layer intercepting the Medusa Admin SDK's requests.</li>
@@ -162,18 +160,18 @@
 </div>
 
 <div class="entry">
-  <p class="proj-line"><span class="proj-name">Clinic Automation System</span> — n8n + Postgres + LLM WhatsApp booking and automation system for a clinic: 4 pipelines, 148 nodes. (<a href="https://github.com/muhamedyehya4/clinic-automation-system">GitHub</a>)</p>
+  <p class="proj-line"><span class="proj-name">Clinic Automation System</span> — n8n + Postgres + LLM WhatsApp booking and automation system: 4 pipelines, 148 nodes. (<a href="https://github.com/muhamedyehya4/clinic-automation-system">GitHub</a>)</p>
   <p class="proj-stack">n8n, PostgreSQL, LLM, WhatsApp API</p>
   <ul>
-    <li>Multi-step conversation state managed across pipelines so a WhatsApp thread can span booking, rescheduling and follow-up without losing context.</li>
-    <li>Idempotent webhook handling so retried WhatsApp events don't double-book or duplicate messages. Built with a team of four; owned architecture and workflow design.</li>
+    <li>LLM classifies inbound WhatsApp intent and drives routing across booking, risk triage, escalation and review-request paths.</li>
+    <li>Booking agent checks slot availability via a Postgres advisory-locked stored procedure; unique constraints and NULL-guarded updates stop reminders and triage alerts firing twice. Built with a team of four; owned architecture and workflow design.</li>
   </ul>
 </div>
 
 <h2>Education</h2>
 <div class="entry">
   <div class="entry-head"><span>B.Sc. in Computer Science</span><span>2024 – 2028 (Expected)</span></div>
-  <div class="entry-sub"><span>Egyptian Chinese University</span><span>Cairo, Egypt</span></div>
+  <div class="entry-sub">Egyptian Chinese University</div>
 </div>
 
 <h2>Languages</h2>
