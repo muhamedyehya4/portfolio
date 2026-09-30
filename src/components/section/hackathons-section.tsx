@@ -41,7 +41,7 @@ export default function HackathonsSection() {
                   <div className="size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-border flex-none" />
                 )}
               </TimelineConnectItem>
-              <div className="flex flex-1 flex-col justify-start gap-2 min-w-0">
+              <div className="cert-shine flex flex-1 flex-col justify-start gap-2 min-w-0 rounded-xl bg-card p-4">
                 {hackathon.dates && (
                   <time className="text-xs text-muted-foreground">{hackathon.dates}</time>
                 )}
@@ -62,7 +62,7 @@ export default function HackathonsSection() {
                       <Link
                         href={link.href}
                         key={idx}
-                        aria-label={"ariaLabel" in link ? link.ariaLabel : undefined}
+                        aria-label={link.ariaLabel}
                         {...externalLinkProps(link.href)}
                       >
                         <Badge className="flex items-center gap-1.5 text-xs bg-primary text-primary-foreground">

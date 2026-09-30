@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, FileTextIcon, Webhook } from "lucide-react";
+import { HomeIcon, FileTextIcon, Webhook, BadgeCheck } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
@@ -241,7 +241,7 @@ export const DATA = {
         {
           title: "Verify",
           href: "/icpc-egyptian-2025.pdf",
-          icon: <Icons.globe className="size-3" />,
+          icon: <BadgeCheck className="size-3" aria-hidden />,
           ariaLabel: "Verify certificate (PDF, opens in new tab)",
         },
       ],
@@ -258,7 +258,7 @@ export const DATA = {
         {
           title: "Verify",
           href: "/icpc-ecpc-2025.pdf",
-          icon: <Icons.globe className="size-3" />,
+          icon: <BadgeCheck className="size-3" aria-hidden />,
           ariaLabel: "Verify certificate (PDF, opens in new tab)",
         },
       ],
@@ -275,7 +275,8 @@ export const DATA = {
         {
           title: "Verify",
           href: "https://coursera.org/verify/professional-cert/Y5R98AR9VQ51",
-          icon: <Icons.globe className="size-3" />,
+          icon: <BadgeCheck className="size-3" aria-hidden />,
+          ariaLabel: "Verify certificate on Coursera (opens in new tab)",
         },
       ],
     },
@@ -291,7 +292,8 @@ export const DATA = {
         {
           title: "Verify",
           href: "https://intranet.alxswe.com/certificates/5xnTBePJ98",
-          icon: <Icons.globe className="size-3" />,
+          icon: <BadgeCheck className="size-3" aria-hidden />,
+          ariaLabel: "Verify certificate on ALX (opens in new tab)",
         },
       ],
     },
