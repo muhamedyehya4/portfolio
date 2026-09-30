@@ -281,6 +281,23 @@ export const DATA = {
       ],
     },
     {
+      title: "Google AI Essentials",
+      dates: "March 2025",
+      location: "Coursera",
+      description:
+        "Google course on using generative AI tools effectively: prompting, evaluating output, and responsible AI use at work.",
+      image: "/google.webp",
+      issuer: "Google",
+      links: [
+        {
+          title: "Verify",
+          href: "https://www.coursera.org/account/accomplishments/verify/EA16YI5ESLTE",
+          icon: <BadgeCheck className="size-3" aria-hidden />,
+          ariaLabel: "Verify certificate on Coursera (opens in new tab)",
+        },
+      ],
+    },
+    {
       title: "ALX AI Career Essentials",
       dates: "December 2024",
       location: "ALX",
