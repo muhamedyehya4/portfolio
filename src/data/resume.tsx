@@ -1,11 +1,18 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, FileTextIcon } from "lucide-react";
+import { HomeIcon, FileTextIcon, Webhook, BadgeCheck } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
 import { Nodejs } from "@/components/ui/svgs/nodejs";
 import { Python } from "@/components/ui/svgs/python";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
+import { Javascript } from "@/components/ui/svgs/javascript";
+import { Supabase } from "@/components/ui/svgs/supabase";
+import { Tailwindcss } from "@/components/ui/svgs/tailwindcss";
+import { Cplusplus } from "@/components/ui/svgs/cplusplus";
+import { Git } from "@/components/ui/svgs/git";
+import { Vercel } from "@/components/ui/svgs/vercel";
+import { N8n } from "@/components/ui/svgs/n8n";
 
 export const DATA = {
   name: "Mohamed Yehya",
@@ -19,19 +26,19 @@ export const DATA = {
     "I build multi-tenant web apps and automation systems: role-based access, row-level security, server-side validation, race-condition-safe bookings. Stack is TypeScript and Next.js on Postgres via Supabase, plus n8n for workflow automation. B.Sc. in Computer Science, Egyptian Chinese University.",
   skills: [
     { name: "TypeScript", icon: Typescript },
-    { name: "JavaScript", icon: undefined },
+    { name: "JavaScript", icon: Javascript },
     { name: "Next.js", icon: NextjsIconDark },
     { name: "React", icon: ReactLight },
     { name: "Node.js", icon: Nodejs },
     { name: "PostgreSQL", icon: Postgresql },
-    { name: "Supabase", icon: undefined },
-    { name: "Tailwind CSS", icon: undefined },
+    { name: "Supabase", icon: Supabase },
+    { name: "Tailwind CSS", icon: Tailwindcss },
     { name: "Python", icon: Python },
-    { name: "C++", icon: undefined },
-    { name: "REST APIs", icon: undefined },
-    { name: "Git", icon: undefined },
-    { name: "Vercel", icon: undefined },
-    { name: "n8n", icon: undefined },
+    { name: "C++", icon: Cplusplus },
+    { name: "REST APIs", icon: Webhook },
+    { name: "Git", icon: Git },
+    { name: "Vercel", icon: Vercel },
+    { name: "n8n", icon: N8n },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home", ariaLabel: undefined },
@@ -70,7 +77,7 @@ export const DATA = {
       badges: [],
       location: "Cairo, Egypt",
       title: "Freelance Software Developer",
-      logoUrl: "",
+      logoUrl: "/Fiverrlogo.png",
       start: "Feb 2026",
       end: "Present",
       description:
@@ -106,7 +113,7 @@ export const DATA = {
       school: "Egyptian Chinese University",
       href: "",
       degree: "B.Sc. in Computer Science",
-      logoUrl: "/ecu.png",
+      logoUrl: "/NewECULogo.png",
       start: "2024",
       end: "2028",
     },
@@ -181,7 +188,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/avoure-storefront-cover.jpg",
+      image: "/avoure-storefront-cover.jpeg",
       video: "",
     },
     {
@@ -217,7 +224,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/clinic-cover.jpeg",
       video: "",
     },
   ],
@@ -232,9 +239,10 @@ export const DATA = {
       issuer: "ICPC",
       links: [
         {
-          title: "Certificate",
+          title: "Verify",
           href: "/icpc-egyptian-2025.pdf",
-          icon: <Icons.globe className="size-3" />,
+          icon: <BadgeCheck className="size-3" aria-hidden />,
+          ariaLabel: "Verify certificate (PDF, opens in new tab)",
         },
       ],
     },
@@ -248,9 +256,10 @@ export const DATA = {
       issuer: "ICPC",
       links: [
         {
-          title: "Certificate",
+          title: "Verify",
           href: "/icpc-ecpc-2025.pdf",
-          icon: <Icons.globe className="size-3" />,
+          icon: <BadgeCheck className="size-3" aria-hidden />,
+          ariaLabel: "Verify certificate (PDF, opens in new tab)",
         },
       ],
     },
