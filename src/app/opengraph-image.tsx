@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { DATA } from "@/data/resume";
 
-export const alt = `${DATA.name} — Full-Stack Developer`;
+export const alt = `${DATA.name} — Software Developer`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -52,7 +52,7 @@ export default function Image() {
             {DATA.name}
           </div>
           <div style={{ fontSize: 40, color: "#a3a3a3", marginTop: 20 }}>
-            {`Full-Stack Developer · ${DATA.location}`}
+            {`Software Developer · ${DATA.location}`}
           </div>
           <div
             style={{

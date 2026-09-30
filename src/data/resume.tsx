@@ -21,7 +21,7 @@ export const DATA = {
   location: "Cairo, Egypt",
   locationLink: "https://www.google.com/maps/place/cairo",
   description:
-    "Full-stack developer in Cairo. Next.js, TypeScript, Postgres, Supabase — multi-tenant apps, e-commerce, workflow automation.",
+    "Software developer in Cairo. Next.js, TypeScript, Postgres, Supabase — multi-tenant apps, e-commerce, workflow automation.",
   summary:
     "I build multi-tenant web apps and automation systems: role-based access, row-level security, server-side validation, race-condition-safe bookings. Stack is TypeScript and Next.js on Postgres via Supabase, plus n8n for workflow automation. B.Sc. in Computer Science, Egyptian Chinese University.",
   skills: [

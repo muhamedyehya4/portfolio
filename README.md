@@ -1,6 +1,6 @@
 # Mohamed Yehya — Portfolio
 
-Personal portfolio of Mohamed Yehya, a full-stack developer in Cairo building multi-tenant web apps, e-commerce and workflow automation.
+Personal portfolio of Mohamed Yehya, a software developer in Cairo building multi-tenant web apps, e-commerce and workflow automation.
 
 **Live:** https://mohamedyehya.vercel.app
 

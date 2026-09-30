@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
   variable: "--font-mono",
 });
 
-const TITLE = `${DATA.name} — Full-Stack Developer`;
+const TITLE = `${DATA.name} — Software Developer`;
 const DESCRIPTION = DATA.summary.split(/(?<=\.)\s/)[0];
 
 export const metadata: Metadata = {
