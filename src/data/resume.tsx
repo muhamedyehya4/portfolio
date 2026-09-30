@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, FileTextIcon, Webhook, BadgeCheck } from "lucide-react";
+import { HomeIcon, FileTextIcon, Webhook } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
@@ -241,7 +241,7 @@ export const DATA = {
         {
           title: "Verify",
           href: "/icpc-egyptian-2025.pdf",
-          icon: <BadgeCheck className="size-3" aria-hidden />,
+          icon: <Icons.globe className="size-3" />,
           ariaLabel: "Verify certificate (PDF, opens in new tab)",
         },
       ],
@@ -258,7 +258,7 @@ export const DATA = {
         {
           title: "Verify",
           href: "/icpc-ecpc-2025.pdf",
-          icon: <BadgeCheck className="size-3" aria-hidden />,
+          icon: <Icons.globe className="size-3" />,
           ariaLabel: "Verify certificate (PDF, opens in new tab)",
         },
       ],

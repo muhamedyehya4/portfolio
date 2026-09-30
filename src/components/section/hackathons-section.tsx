@@ -2,7 +2,7 @@
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { DATA } from "@/data/resume";
-import { cn, externalLinkProps } from "@/lib/utils";
+import { externalLinkProps } from "@/lib/utils";
 import { Timeline, TimelineItem, TimelineConnectItem } from "@/components/timeline";
 
 export default function HackathonsSection() {
@@ -41,13 +41,7 @@ export default function HackathonsSection() {
                   <div className="size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-border flex-none" />
                 )}
               </TimelineConnectItem>
-              <div
-                className={cn(
-                  "flex flex-1 flex-col justify-start gap-2 min-w-0",
-                  hackathon.links?.some((link) => link.href.endsWith(".pdf")) &&
-                    "cert-shine rounded-xl bg-card p-4"
-                )}
-              >
+              <div className="flex flex-1 flex-col justify-start gap-2 min-w-0">
                 {hackathon.dates && (
                   <time className="text-xs text-muted-foreground">{hackathon.dates}</time>
                 )}
